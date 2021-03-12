@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #000000;
+  color:white;
+  font-size: 15px;
+}
+
+::selection{
+  background-color: black;
+  color: white;
+}
+
+.info{
+  position: absolute;
+  top: 0;
+  right: 90px;
+}
+.cv{
+  display: flex;
+  background: linear-gradient(to right, #000000 0%, #00000000 80%);
+}
+.profile-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  margin: 2em;
+  max-width: 40%;
+  
+}
+
+#profile-pic{
+  border-radius: 30px;
+}
+
+.partB{
+  margin-top:1em;
+}
+
+.contact{
+  width: 100%;
+  margin: 1em 0 2em 12.5em;
+}
+
+#github-logo{
+  border-radius: none;
+  max-width: 4%;
+  margin: 0;
+}
+#gmail-logo{
+  border-radius: none;
+  max-width: 4%;
+  margin: 0;
+}
+
+#contact-link{
+  list-style: none;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+#contact-link a{
+  text-decoration: none;
+  padding-left: 10px;
+  color:white;
+  font-size: 1em;
+}
+#contact-link a:hover{
+  color: red;
+ font-size: 1.5em;
+}
+
+.exp, .projects, .works, .school{
+
+  width: 40%;
+  padding: 1em 3em 1em 3em;
+  margin: 0 2em;
+  font-family: 'Average', serif;
+}
+
+#exp-title, #projects-title, #works-title, #school-title, #title-skills{
+  font-size: 2em;
+  font-family: 'Courier New', Courier, monospace;
+  width: 50%;
+}
+
+.exp-cont,.school-cont{
+  margin: 1em 0;
+}
+
+.title-exp, .title-lang,.title-idioms,.title-project, .works-title, .title-school, .title-web, .title-other, .title-contact{
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  
+}
+
+.charge-exp, .charge-project, .works-info, .school-date{
+  font-style: italic;
+  font-size: 1em;
+}
+
+
+.date-exp, .date-project{
+  font-size: 1em;
+}
+
+.desc-exp {
+  font-size: 1em;
+  text-align: justify;
+  padding-top:0.3em;
+  line-height: 1.2em;
+  color:rgb(160, 160, 160);
+}
+
+.titles, .charge-exp{
+  margin: 0.3em 0 0 0;
+}
+
+.charge-project{
+  color:rgb(160, 160, 160);
+  margin: 0.3em 0;
+}
+
+.works-info{
+  color:rgb(160, 160, 160);
+}
+
+.projects li{
+  margin: 0.9em 0;
+  list-style: none;
+}
+
+.works li{
+  margin: 0.9em 0;
+  list-style: none;
+}
+
+.skills{
+  width: 100%;
+}
+
+.web-skill{
+  width: 100%;
+  margin: 2em 0 0 12.5em;
+}
+.other-skill{
+  width: 100%;
+  margin: 2em 0 0 12.5em;
+}
+
+.lang-skill{
+  width: 100%;
+  margin: 2em 0 0 12.5em;
+}
+.idioms-skill{
+  width: 100%;
+  margin: 2em 0 0 12.5em;
+}
+
+.web-skill li{
+  font-size: 1.1em;
+  padding: 0.2em 0 0 0.5em;
+  list-style: none;
+}
+
+.other-skill li{
+  font-size: 1.1em;
+  padding: 0.2em 0 0 0.5em;
+  list-style: none;
+}
+
+.lang-skill li{
+  font-size: 1.1em;
+  padding: 0.2em 0 0 0.5em;
+  list-style: none;
+}
+
+.idioms-skill li{
+  font-size: 1.1em;
+  padding: 0.2em 0 0 0.5em;
+  list-style: none;
+}
+
+.idiomsIt{
+  font-style: italic;
+}
+#title-skills{
+  margin: 0 0 0 6.1em;
+}
+
+.p5Canvas{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+@media (max-width: 850px){
+  .cv{
+      display: block;
+  }
+  .info{
+      display:none;
+  }
+  .p5Canvas{
+      display: none;
+  }
+  .partA{
+      margin-left: -6.5em;
+  }
+  .partB{
+      margin-left: 1em;
+  }
+  .exp, .projects, .works, .school{
+
+      width: 70%;
+  }
+}
