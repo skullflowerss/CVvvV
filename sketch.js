@@ -4,7 +4,7 @@ let num = 10;
 let status = true
 
 function setup() {
-	createCanvas(windowWidth, windowHeight*1.73);
+	createCanvas(windowWidth, windowHeight*1.7);
 	rectMode(CENTER);
 	background(0);
 
