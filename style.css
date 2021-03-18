@@ -58,6 +58,11 @@ img{
   max-width: 4%;
   margin: 0;
 }
+#lain-logo{
+  border-radius: none;
+  max-width: 4%;
+  margin: 0;
+}
 
 #contact-link{
   list-style: none;
